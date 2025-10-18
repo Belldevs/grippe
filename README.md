@@ -16,7 +16,7 @@
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 npm install grippe
@@ -44,7 +44,7 @@ const result = await optimizePrompt("what is a black hole?");
 console.log(result);
 ```
 
-### 📥 **Output**
+###  **Output**
 
 ```json
 {
@@ -75,7 +75,7 @@ console.log(result);
 }
 ```
 
-📥 **Output**
+ **Output**
 
 ```json
 {
@@ -85,7 +85,7 @@ console.log(result);
 
 ---
 
-## 🧠 Parameters
+##  Parameters
 
 | Parameter     | Type     | Default    | Description         
                                         
@@ -110,7 +110,7 @@ Your code doesn’t change — the module automatically picks these up.
 
 ---
 
-## 💻 Example: API Integration
+##  Example: API Integration
 
 ```js
 import express from "express";
@@ -136,7 +136,7 @@ app.listen(8080, () => console.log(" Running at http://localhost:8080"));
 
 ---
 
-### 🧩 Example Request (Postman or frontend)
+###  Example Request (Postman or frontend)
 
 **POST → `http://localhost:8080/optimize`**
 
@@ -159,7 +159,7 @@ app.listen(8080, () => console.log(" Running at http://localhost:8080"));
 
 ---
 
-## ⚙️ Default Behaviors
+##  Default Behaviors
 
 | Scenario                         | What Happens                                                                                    
 | No model provided                | The module auto-selects the best installed one (prefers Llama3 → Mistral → Gemma → Phi3 → CodeLlama) |
@@ -170,7 +170,7 @@ app.listen(8080, () => console.log(" Running at http://localhost:8080"));
 
 ---
 
-## 🧱 Input → Output Flow
+##  Input → Output Flow
 
 ```
 User JSON Input
@@ -194,7 +194,7 @@ Output JSON
 
 ---
 
-## 🧰 CLI Usage (Optional)
+##  CLI Usage (Optional)
 
 You can expose a command-line tool for quick testing by adding this to your `package.json`:
 
@@ -223,7 +223,7 @@ npx grippe "what is artificial intelligence?"
 
 ---
 
-## 🏢 Enterprise Deployment
+##  Enterprise Deployment
 
 In large organizations:
 
@@ -237,7 +237,7 @@ In large organizations:
 
 ---
 
-## 📊 Summary
+##  Summary
 
 | Feature           | Description                                |
 | ----------------- | ------------------------------------------ |
@@ -249,13 +249,13 @@ In large organizations:
 
 ---
 
-## 🧾 License
+##  License
 
 MIT © 2025 Bello Okatahi Dominic
 
 ---
 
-## ❤️ Contributing
+##  Contributing
 
 1. Fork the repo
 2. Create your feature branch (`git checkout -b feature/awesome`)
@@ -271,4 +271,5 @@ MIT © 2025 Bello Okatahi Dominic
  Optimized Prompt Result:
 {
   "optimized_prompt": "You are an astrophysicist. Explain black holes clearly to a curious audience using simple analogies."
+
 }
